@@ -1,0 +1,38 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(79, 180, 104, 0.7);
+    border: 2px solid  rgb(238, 228, 228);  
+    border-radius: 15px;  
+    padding: 15px;
+    width: 150px;
+    height: 190px; 
+    cursor: pointer;        
+    justify-content: center;
+    align-items: center;    
+}
+
+.card-container:hover{
+    transform: scale(1.15);
+    background-color: rgba(79, 180, 104, 1);
+
+}
+
+.card-container img {
+    max-width: 80%;
+    height: auto;
+    text-decoration: none;
+  }
+
+  .card-container p {
+    color: white;
+}
+
+.card-container h4 {
+    color: white;
+    
+}
+
+.link{
+    text-decoration: none;
+}

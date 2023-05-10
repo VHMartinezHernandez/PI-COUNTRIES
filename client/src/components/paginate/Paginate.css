@@ -1,0 +1,57 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-pag {
+  background-color: #4fb468;
+  color: rgb(238, 228, 228);
+  cursor: pointer;
+  font-family: Segoe UI Symbol;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-radius: 10rem;
+  border-width: 1px;
+  padding: 0.1rem 2rem;
+}
+
+.button-pag:hover{
+  background-color: #409656;
+  color: rgb(238, 228, 228);
+}
+
+
+.page p {
+  background-color: #4fb468;
+  color: rgb(238, 228, 228);
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+  width: 50px;
+  height: 20px;
+  font-size: 13px;
+}
+
+.page h3 {
+  background-color: #4fb468;
+  color: rgb(238, 228, 228);
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+  width: 55px;
+  height: 25px;
+  font-size: 16px;
+}
+
+.prev-page,
+.next-page {
+  display: flex;
+  align-items: center;
+}
+
+.current-page {
+  margin: 0 20px;
+}

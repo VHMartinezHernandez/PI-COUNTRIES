@@ -1,0 +1,12 @@
+.cards-list {
+  position: relative;
+  top: -15px;
+  width: 85%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  display: grid;
+  flex-direction: row;
+  border-radius: 15px;
+  gap: 1em;
+}

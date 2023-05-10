@@ -1,0 +1,17 @@
+.detail {
+  background-color: rgba(79, 180, 104, 1);
+  border: 2px solid rgb(238, 228, 228);
+  color: rgb(238, 228, 228);
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  width: 25%;
+  font-size: 14px;
+  padding: 8px;
+  margin: 10px 0 0 0%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+}
+

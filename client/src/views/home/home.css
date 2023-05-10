@@ -1,0 +1,13 @@
+body {
+  background-image: url("../349956-4k-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;    
+    text-align: center;
+  }
+
+  .cards {
+    margin-top: 30px;
+  }

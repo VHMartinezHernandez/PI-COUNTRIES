@@ -1,0 +1,22 @@
+.search-box {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  justify-content: space-around;
+  padding: 10px;  
+  margin-bottom: 30px;
+}
+
+.button-nav {
+  background-color: #366679;
+  color: rgb(238, 228, 228);
+  cursor: pointer;
+  font-family: Segoe UI Symbol;
+  font-size: 120%;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-radius: 10rem;
+  border-width: 1px;
+  padding: 0.1rem 2rem;
+}
