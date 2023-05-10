@@ -71,7 +71,7 @@ export default function Form() {
   const submitHandler = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:3001/activities", form)
+      .post("/activities", form)
       .then((res) => showModal())
       .catch((errors) =>
         alert(

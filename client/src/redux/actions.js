@@ -15,7 +15,7 @@ export const RESET_ACTIVITIES = "RESET_ACTIVITIES";
 
 export const getCountries = () => {
   return async function (dispatch) {
-    const apiData = await axios.get("http://localhost:3001/countries");
+    const apiData = await axios.get("/countries");
     const countries = apiData.data;
     dispatch({
       type: GET_COUNTRIES,
@@ -26,7 +26,7 @@ export const getCountries = () => {
 
 export const getActivities = () => {
   return async function (dispatch) {
-    const activData = await axios.get("http://localhost:3001/activities");
+    const activData = await axios.get("/activities");
     const activities = activData.data;
     dispatch({
       type: GET_ACTIVITIES,
@@ -38,7 +38,7 @@ export const getActivities = () => {
 export const getCountriesId = (id) => {
   return function (dispatch) {
     axios
-      .get(`http://localhost:3001/countries/${id}`)
+      .get(`/countries/${id}`)
       .then((response) => response.data)
       .then((data) => dispatch({ type: GET_COUNTRIES_ID, payload: data }));
   };
@@ -47,7 +47,7 @@ export const getCountriesId = (id) => {
 export function getCountriesName(name) {
   return async (dispatch) => {
     const res = await axios.get(
-      `http://localhost:3001/countries/?name=${name}`
+      `/countries/?name=${name}`
     );
     dispatch({ type: GET_COUNTRIES_NAME, payload: res.data });
   };
